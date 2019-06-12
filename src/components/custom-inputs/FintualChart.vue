@@ -4,7 +4,7 @@
       <div class="eg-slide-content">
         <div class="fintual-chart__video-container">
           <video class="fintual-chart__video" controls autoplay loop>
-            <source src="@/assets/chart.mp4" type="video/mp4">
+            <source src="@/assets/videos/chart.mp4" type="video/mp4">
            </video>
         </div>
       </div>
