@@ -5,6 +5,7 @@
     <slides-url />
     <vue />
     <fintual />
+
     <vue-guide />
     <vue-instance />
     <vue-component />
@@ -12,7 +13,17 @@
     <vue-events />
     <component-example />
     <vue-component-registration />
+
+    <vue-component-properties :steps="2" />
+    <vue-custom-events :steps="2" />
+    <vue-hierarchy-example />
+    <vue-forms />
     <vue-v-model />
+    <fintual-chart />
+    <vue-custom-input />
+    <fintual-modal />
+
+    <vue-slots :steps="2" />
   </div>
 </template>
 
@@ -38,8 +49,19 @@ import {
 } from './vue';
 
 import {
+  VueComponentProperties,
+  VueCustomEvents,
+  VueHierarchyExample,
+  VueForms,
   VueVModel,
+  FintualChart,
+  VueCustomInput,
+  FintualModal,
 } from './custom-inputs';
+
+import {
+  VueSlots,
+} from './slots';
 
 export default {
   mixins: [Slideshow],
@@ -56,7 +78,15 @@ export default {
     VueEvents,
     ComponentExample,
     VueComponentRegistration,
-    VueVModel
+    VueComponentProperties,
+    VueCustomEvents,
+    VueHierarchyExample,
+    VueForms,
+    VueVModel,
+    FintualChart,
+    VueCustomInput,
+    FintualModal,
+    VueSlots,
   },
 };
 </script>
@@ -79,6 +109,7 @@ export default {
 }
 
 .code-example {
+  align-items: center;
   display: flex;
   margin: 15px;
   @media(max-width: 800px) {
