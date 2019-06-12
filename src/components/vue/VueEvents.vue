@@ -26,7 +26,7 @@ export default {
 &lt;/script&gt;
             </eg-code-block>
           </div>
-          <div class="code-example__component">
+          <div class="code-example__component" @click.stop>
             <p>{{ number }}</p>
             <button @click.stop="add">Incrementa</button>
           </div>

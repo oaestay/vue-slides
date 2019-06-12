@@ -44,7 +44,7 @@ export default {
   &lt;template #title&gt;
     &lt;h1&gt;T&iacute;tulo&lt;/h1&gt;
   &lt;/template&gt;
-  &lt;template #content&gt;
+  &lt;template v-slot:content&gt;
     &lt;ul&gt;
       &lt;li&gt;🍊&lt;/li&gt;
       &lt;li&gt;🍎&lt;/li&gt;

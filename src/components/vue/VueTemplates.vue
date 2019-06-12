@@ -24,7 +24,7 @@ export default {
 &lt;/script&gt;
             </eg-code-block>
           </div>
-          <div class="code-example__component">
+          <div class="code-example__component" @click.stop>
             <p>{{ myText }}</p>
             <p>{{ `${myText} con algo más` }}</p>
             <p>{{ `1 + 10 = ${1 + 10}` }}</p>

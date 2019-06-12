@@ -40,7 +40,7 @@ export default {
 &lt;/script&gt;
             </eg-code-block>
           </div>
-          <div class="code-example__component">
+          <div class="code-example__component" @click.stop>
             <p class="code-example__filename">examples/MyCounter.vue</p>
             <my-counter title="Título"/>
           </div>

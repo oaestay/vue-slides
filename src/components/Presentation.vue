@@ -24,6 +24,10 @@
     <fintual-modal />
 
     <vue-slots :steps="2" />
+    <vue-slots-example />
+    <vue-slots-uses />
+
+    <welcome />
   </div>
 </template>
 
@@ -61,6 +65,8 @@ import {
 
 import {
   VueSlots,
+  VueSlotsExample,
+  VueSlotsUses,
 } from './slots';
 
 export default {
@@ -87,6 +93,8 @@ export default {
     VueCustomInput,
     FintualModal,
     VueSlots,
+    VueSlotsExample,
+    VueSlotsUses,
   },
 };
 </script>

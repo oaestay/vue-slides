@@ -41,7 +41,7 @@ export default {
 &lt;/script&gt;
             </eg-code-block>
           </div>
-          <div class="code-example__component">
+          <div class="code-example__component" @click.stop>
             <p class="code-example__filename">examples/ParentComponent.vue</p>
             <parent-component title="Título"/>
           </div>
